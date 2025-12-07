@@ -75,7 +75,7 @@ def visualize_packing(packer, fabric_width, fabric_height, output_file='pattern_
             ax.add_patch(rect_patch)
  
             # Add text label
-            ax.text(x + w/2, y + h/2, rid, ha='center', va='center', fontsize=10)
+            ax.text(x + w/2, y + h/2, f"{w}x{h}", ha='center', va='center', fontsize=10)
     
 
     return fig
